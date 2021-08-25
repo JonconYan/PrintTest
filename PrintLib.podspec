@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PrintLib'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of PrintLib.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PrintLib/Classes/**/*'
+  s.source_files = 'PrintLib/Include/**/*'
+  s.vendored_library = "PrintLib/Frameworks/libAPNGLibrary.a"
   
   # s.resource_bundles = {
   #   'PrintLib' => ['PrintLib/Assets/*.png']
