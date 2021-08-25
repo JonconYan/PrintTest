@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'PrintLib/Include/**/*'
-  s.vendored_library = "PrintLib/Frameworks/libAPNGLibrary.a"
+  s.vendored_library = "PrintLib/Frameworks/libPrintTest.a"
   
   # s.resource_bundles = {
   #   'PrintLib' => ['PrintLib/Assets/*.png']
